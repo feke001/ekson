@@ -22,3 +22,4 @@ jobs:
           pattern: '\[[^]]+\] .+$'
           flags: 'gm'
           error: 'Your first line has to contain a commit type like "[BUGFIX]".'
+          excludeDescription: true
